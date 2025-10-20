@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Datacred UX/UI MCP Server
+ * UX/UI MCP Server
  * 
  * Servidor MCP customizado para aplicar diretrizes de UX/UI em componentes React
  * com Material-UI, seguindo Heurísticas de Nielsen e Vieses Cognitivos.
@@ -383,7 +383,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
 const server = new Server(
   {
-    name: 'datacred-ux-server',
+    name: 'better-ux-server',
     version: '1.0.0',
   },
   {
@@ -611,7 +611,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             {
               type: 'text',
               text: `
-**Checklist UX/UI - Datacred2 Frontend**
+**Checklist UX/UI - better2 Frontend**
 
 Antes de finalizar qualquer componente visual:
 
@@ -666,7 +666,7 @@ Antes de finalizar qualquer componente visual:
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error('Datacred UX/UI MCP Server rodando via stdio');
+  console.error('better UX/UI MCP Server rodando via stdio');
 }
 
 main().catch((error) => {
