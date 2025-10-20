@@ -1,0 +1,45 @@
+{
+  "name": "@barcelos/uiux-tools-react-mui",
+  "version": "1.0.0",
+  "description": "MCP Server with UX/UI best practices for React + Material-UI (Nielsen Heuristics, Cognitive Biases, Apple Design, Responsive patterns)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "uiux-tools-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ux",
+    "ui",
+    "react",
+    "material-ui",
+    "mui",
+    "nielsen-heuristics",
+    "cognitive-bias",
+    "responsive-design",
+    "accessibility",
+    "copilot",
+    "ai-tools"
+  ],
+  "author": "Datacred Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barcelos/uiux-tools-react-mui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/barcelos/uiux-tools-react-mui/issues"
+  },
+  "homepage": "https://github.com/barcelos/uiux-tools-react-mui#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1"
+  }
+}
