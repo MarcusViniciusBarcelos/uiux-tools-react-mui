@@ -1,6 +1,6 @@
 # 🎨 UX/UI Tools for React + Material-UI (MCP Server)
 
-[![npm version](https://badge.fury.io/js/@barcelos%2Fuiux-tools-react-mui.svg)](https://www.npmjs.com/package/@barcelos/uiux-tools-react-mui)
+[![npm version](https://badge.fury.io/js/@marcusbarcelos%2Fuiux-tools-react-mui.svg)](https://www.npmjs.com/package/@MarcusViniciusBarcelos/uiux-tools-react-mui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Model Context Protocol (MCP) Server** that provides AI-powered tools to apply UX/UI best practices to React components with Material-UI.
@@ -27,19 +27,19 @@ Perfect for use with **GitHub Copilot**, **Claude Desktop**, and other AI assist
 No installation needed! Use directly with npx:
 
 ```bash
-npx @barcelos/uiux-tools-react-mui
+npx @MarcusViniciusBarcelos/uiux-tools-react-mui
 ```
 
 ### Option 2: Global Installation
 
 ```bash
-npm install -g @barcelos/uiux-tools-react-mui
+npm install -g @MarcusViniciusBarcelos/uiux-tools-react-mui
 ```
 
 ### Option 3: Docker
 
 ```bash
-docker run -i barcelos/uiux-tools-react-mui
+docker run -i MarcusViniciusBarcelos/uiux-tools-react-mui
 ```
 
 ---
@@ -55,7 +55,7 @@ Add to your `~/.config/Code/User/mcp.json` (Linux/Mac) or `%APPDATA%\Code\User\m
   "servers": {
     "uiux-tools": {
       "command": "npx",
-      "args": ["-y", "@barcelos/uiux-tools-react-mui"]
+      "args": ["-y", "@MarcusViniciusBarcelos/uiux-tools-react-mui"]
     }
   }
 }
@@ -70,7 +70,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) o
   "mcpServers": {
     "uiux-tools": {
       "command": "npx",
-      "args": ["-y", "@barcelos/uiux-tools-react-mui"]
+      "args": ["-y", "@MarcusViniciusBarcelos/uiux-tools-react-mui"]
     }
   }
 }
@@ -83,7 +83,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) o
   "servers": {
     "uiux-tools": {
       "command": "docker",
-      "args": ["run", "-i", "barcelos/uiux-tools-react-mui"]
+      "args": ["run", "-i", "MarcusViniciusBarcelos/uiux-tools-react-mui"]
     }
   }
 }
@@ -202,19 +202,19 @@ Simply ask:
 ### Build Image
 
 ```bash
-docker build -t barcelos/uiux-tools-react-mui .
+docker build -t MarcusViniciusBarcelos/uiux-tools-react-mui .
 ```
 
 ### Run Server
 
 ```bash
-docker run -i barcelos/uiux-tools-react-mui
+docker run -i MarcusViniciusBarcelos/uiux-tools-react-mui
 ```
 
 ### Docker Hub
 
 ```bash
-docker pull barcelos/uiux-tools-react-mui
+docker pull MarcusViniciusBarcelos/uiux-tools-react-mui
 ```
 
 ---
@@ -224,7 +224,7 @@ docker pull barcelos/uiux-tools-react-mui
 ### Clone Repository
 
 ```bash
-git clone https://github.com/barcelos/uiux-tools-react-mui.git
+git clone https://github.com/MarcusViniciusBarcelos/uiux-tools-react-mui.git
 cd uiux-tools-react-mui
 npm install
 ```
@@ -272,8 +272,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Support
 
-- 🐛 [Report Issues](https://github.com/barcelos/uiux-tools-react-mui/issues)
-- 💬 [Discussions](https://github.com/barcelos/uiux-tools-react-mui/discussions)
+- 🐛 [Report Issues](https://github.com/MarcusViniciusBarcelos/uiux-tools-react-mui/issues)
+- 💬 [Discussions](https://github.com/MarcusViniciusBarcelos/uiux-tools-react-mui/discussions)
 
 ---
 
