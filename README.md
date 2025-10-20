@@ -27,19 +27,19 @@ Perfect for use with **GitHub Copilot**, **Claude Desktop**, and other AI assist
 No installation needed! Use directly with npx:
 
 ```bash
-npx @MarcusViniciusBarcelos/uiux-tools-react-mui
+npx @marcusbarcelos/uiux-tools-react-mui
 ```
 
 ### Option 2: Global Installation
 
 ```bash
-npm install -g @MarcusViniciusBarcelos/uiux-tools-react-mui
+npm install -g @marcusbarcelos/uiux-tools-react-mui
 ```
 
 ### Option 3: Docker
 
 ```bash
-docker run -i MarcusViniciusBarcelos/uiux-tools-react-mui
+docker run -i marcusbarcelos/uiux-tools-react-mui
 ```
 
 ---
