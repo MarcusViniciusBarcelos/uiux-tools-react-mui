@@ -1,11 +1,11 @@
 {
-  "name": "@marcusMarcusViniciusBarcelos/uiux-tools-react-mui",
+  "name": "@marcusbarcelos/uiux-tools-react-mui",
   "version": "1.0.0",
   "description": "MCP Server with UX/UI best practices for React + Material-UI (Nielsen Heuristics, Cognitive Biases, Apple Design, Responsive patterns)",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "uiux-tools-mcp": "./index.js"
+    "uiux-tools-mcp": "index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarcusViniciusBarcelos/uiux-tools-react-mui.git"
+    "url": "git+https://github.com/MarcusViniciusBarcelos/uiux-tools-react-mui.git"
   },
   "bugs": {
     "url": "https://github.com/MarcusViniciusBarcelos/uiux-tools-react-mui/issues"
