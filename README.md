@@ -27,19 +27,19 @@ Perfect for use with **GitHub Copilot**, **Claude Desktop**, and other AI assist
 No installation needed! Use directly with npx:
 
 ```bash
-npx @marcusviniciusbarcelos/uiux-tools-react-mui
+npx @marcusbarcelos/uiux-tools-react-mui
 ```
 
 ### Option 2: Global Installation
 
 ```bash
-npm install -g @marcusviniciusbarcelos/uiux-tools-react-mui
+npm install -g @marcusbarcelos/uiux-tools-react-mui
 ```
 
 ### Option 3: Docker
 
 ```bash
-docker run -i marcusviniciusbarcelos/uiux-tools-react-mui
+docker run -i marcusbarcelos/uiux-tools-react-mui
 ```
 
 ---
@@ -55,7 +55,7 @@ Add to your `~/.config/Code/User/mcp.json` (Linux/Mac) or `%APPDATA%\Code\User\m
   "servers": {
     "uiux-tools": {
       "command": "npx",
-      "args": ["-y", "@marcusviniciusbarcelos/uiux-tools-react-mui"]
+      "args": ["-y", "@marcusbarcelos/uiux-tools-react-mui"]
     }
   }
 }
@@ -70,7 +70,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) o
   "mcpServers": {
     "uiux-tools": {
       "command": "npx",
-      "args": ["-y", "@marcusviniciusbarcelos/uiux-tools-react-mui"]
+      "args": ["-y", "@marcusbarcelos/uiux-tools-react-mui"]
     }
   }
 }
@@ -83,7 +83,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) o
   "servers": {
     "uiux-tools": {
       "command": "docker",
-      "args": ["run", "-i", "marcusviniciusbarcelos/uiux-tools-react-mui"]
+      "args": ["run", "-i", "marcusbarcelos/uiux-tools-react-mui"]
     }
   }
 }
